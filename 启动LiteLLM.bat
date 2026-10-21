@@ -1,7 +1,7 @@
 ::[Bat To Exe Converter]
 ::
 ::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJGyX8VAjFBBbTgHCPnm7CL4Z/NTf6vmMtkINaOQ+bobY1brAKeMcig==
+::fBw5plQjdCyDJGyX8VAjFBBbTgHCPnm7CL4Z/NTf6vmMtkINaPMre4Df07qJHLEv61X0O58u2Ro=
 ::YAwzuBVtJxjWCl3EqQJgSA==
 ::ZR4luwNxJguZRRnk
 ::Yhs/ulQjdF+5
@@ -45,6 +45,6 @@ if errorlevel 1 (
 
 set "LITELLM_MASTER_KEY=sk-verity-local-2026"
 
-litellm --model ollama/qwen2.5:3b --api_base http://localhost:11434 --host 127.0.0.1 --port 4000
+litellm --model ollama/qwen1.5b --api_base http://localhost:11434 --host 127.0.0.1 --port 4000
 
 pause
